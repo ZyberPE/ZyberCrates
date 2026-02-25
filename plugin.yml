@@ -1,0 +1,16 @@
+name: ZyberCrates
+version: 1.0.0
+api: 5.0.0
+main: ZyberCrates\Main
+commands:
+  crate:
+    description: Open or manage crates
+    usage: "/crate <type|give|list|reload>"
+    permission: zybercrates.use
+permissions:
+  zybercrates.use:
+    description: Allows use of crate commands
+    default: true
+  zybercrates.admin:
+    description: Allows admin crate commands
+    default: op
