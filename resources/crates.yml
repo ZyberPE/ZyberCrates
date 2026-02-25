@@ -1,0 +1,18 @@
+common:
+  displayName: "Common Crate"
+  keyItem:
+    id: 399
+    meta: 0
+    customName: "Common Key"
+  rewards:
+    - "minecraft:diamond 1"
+    - "minecraft:iron_ingot 5"
+rare:
+  displayName: "Rare Crate"
+  keyItem:
+    id: 399
+    meta: 0
+    customName: "Rare Key"
+  rewards:
+    - "minecraft:emerald 1"
+    - "minecraft:gold_ingot 5"
